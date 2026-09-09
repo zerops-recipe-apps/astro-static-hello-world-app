@@ -6,7 +6,7 @@ Astro 5 static-output starter — static build served by nginx in prod; dev cont
 
 - HTTP port: dev `4321` (Astro default) / prod `80` (nginx)
 - Siblings: —
-- Runtime base: dev `nodejs@22` / prod `static`
+- Runtime base: dev `nodejs@24` / prod `static`
 
 ## Zerops dev
 
