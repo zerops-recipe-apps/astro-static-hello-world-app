@@ -1,5 +1,5 @@
 {
-  "name": "astro-hello-world",
+  "name": "astro-static-hello-world-app",
   "type": "module",
   "version": "1.0.0",
   "scripts": {
@@ -8,6 +8,31 @@
     "preview": "astro preview"
   },
   "dependencies": {
-    "astro": "^5.18.0"
+    "astro": "7.1.6"
+  },
+  "description": "Minimal Astro static export demo for Zerops (Node build, Nginx runtime).",
+  "author": "Zerops",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zerops-recipe-apps/astro-static-hello-world-app.git"
+  },
+  "homepage": "https://github.com/zerops-recipe-apps/astro-static-hello-world-app",
+  "bugs": {
+    "url": "https://github.com/zerops-recipe-apps/astro-static-hello-world-app/issues"
+  },
+  "private": true,
+  "keywords": [
+    "astro",
+    "zerops",
+    "static-export",
+    "nginx",
+    "hello-world"
+  ],
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "overrides": {
+    "sharp": "0.35.3"
   }
 }
